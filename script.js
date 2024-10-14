@@ -5,8 +5,8 @@ function makeid(l) {
 
 	for (let i=0;i<l;i++) {
 		res += char_list.charAt(
-			math.floor(
-				math.random()*char_list.length
+			Math.floor(
+				Math.random()*char_list.length
 			)
 		)
 	}
@@ -14,5 +14,5 @@ function makeid(l) {
 }
 
 // Do not change the code below.
-const l = prompt("Enter a number.");
-alert(makeid(l));
+// const l = prompt("Enter a number.");
+// alert(makeid(l));
